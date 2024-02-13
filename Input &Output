@@ -1,0 +1,189 @@
+//Write a C program to print the sample output.
+Sample Output :
+Hello World...!
+Program:
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"Hello World...!";
+    return 0;
+}
+//Write a C program to print sample output.
+Sample Output :
+Hello World...!
+Hello World...!
+Program:
+#include<iostream>
+using namespace std;
+int main()
+{ 
+    cout<<"Hello World...!\nHello World...!";
+    return 0;
+}
+//Write a C program to print sample Output.
+Sample Output:
+Hello     World...!
+Program:
+#include<iostream>
+using namespace std;
+int main()
+{ 
+    cout<<"Hello\tWorld...!";
+    return 0;
+}
+//Write a program to print a character
+INPUT & OUTPUT FORMAT: 
+Input consists of 1 character. Output consists of 1 character.
+Sample Input:
+A
+Sample Output:
+A
+Program:
+#include<iostream>
+using namespace std;
+int main()
+{ 
+    char a;
+    cin>>a;
+    cout<<a;
+    return 0;
+}
+//Ravi and Varma went to a textile shop for festival purchase. Ravi took few T-shirts and went for billing. Varma wants discount on the purchased items. The biller shows computer keyboard and asks to press an alpha numeric key and that key’s ASCII value will be the discounted amount on the purchase. Help Varma to know his discounted amount.
+Sample Input:
+A
+Sample Output:
+65
+Program:
+#include <iostream>
+using namespace std;
+int main()
+{
+    char A;
+    cin>>A;
+    cout<<int(A);
+    return 0;
+}
+//ASCII - American Standard Code for Information Interchange.
+Write a program to get a number(ASCII) as input and print its equivalent character.
+You can display a character if you know ASCII code of that character.
+Sample Input:
+103
+Sample Output:
+g
+Program:
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cin>>a;
+    cout<<char(a);
+    return 0;
+}
+//Write a program to get a float value from the user and display it.
+Sample Input:
+23.115
+Sample Output:
+23.115000
+Program:
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    float a;
+    cin>>a;
+    cout<<fixed<<setprecision(6)<<a;
+    return 0;
+    
+}
+//Write a program to get a float value from the user and display it in the below-mentioned format
+INPUT & OUTPUT FORMAT: 
+Input consists of one float value. 
+Output consists of one integer, its highest round off value and its lowest round off value.
+Sample Input:
+23.115
+Sample Output:
+23.115000
+23.115
+23.11
+23.1
+Program:
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    float a;
+    cin>>a;
+    cout<<fixed<<setprecision(6)<<a;
+    cout<<fixed<<setprecision(3)<<"\n"<<a;
+    cout<<fixed<<setprecision(2)<<"\n"<<a;
+    cout<<fixed<<setprecision(1)<<"\n"<<a;
+    return 0;
+}
+//Write a program to get an integer from the user and display it.
+INPUT & OUTPUT FORMAT: 
+Input consist of 1 integer. Output consist of 1 integer.
+Sample Input:
+56
+Sample Output:
+56
+Program:
+#include<iostream>
+using namespace std;
+int main ()
+{
+    int a;
+    cin>>a;
+    cout<<a;
+    return 0;
+}
+//Write a C program to get a float value from the user and display it in the below-mentioned format.
+HINT: Use ceil() and floor() functions from <math.h> header file.
+Sample Input:
+54.5
+Sample Output:
+54
+55.0
+54.0
+Program:
+#include<iostream>
+#include<math.h>
+#include<iomanip>
+using namespace std;
+int main ()
+{
+    float a;
+    cin>>a;
+    cout<<fixed<<setprecision(0)<<int(a);
+    cout<<setprecision(1)<<"\n"<<ceil(a);
+    cout<<setprecision(1)<<"\n"<<floor(a);
+    return 0;
+    
+}
+//In Beirut, there was a very huge explosion. Millions and millions worth buildings and property were destroyed. Many people lost their lives while some of them were injured and few were safe. A news reporter arrives at the spot to take the current survey regarding the situation of the people alive, dead and injured. He wanted to publish it in the newspaper and reach out to other countries asking to help the affected people. Can you please help him in this noble cause by writing a program to generate the newspaper report?
+INPUT & OUTPUT FORMAT:
+Input consists of three integers corresponding to the number of people dead, injured and those who are still alive and safe. 
+Refer sample input and output for formatting specifications.
+Sample Input:
+2000
+3000
+10000
+Sample Output:
+1)Dead:2000
+2)Injured:3000
+3)Safe:10000
+Please help the people who are suffering!!!
+
+
+
+
+
+
+
+
+
+
+
