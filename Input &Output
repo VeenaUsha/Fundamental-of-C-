@@ -176,6 +176,165 @@ Sample Output:
 2)Injured:3000
 3)Safe:10000
 Please help the people who are suffering!!!
+Program:
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cin>>a;
+    cin>>b;
+    cin>>c;
+    cout<<"1)Dead:"<<a<<"\n2)Injured:"<<b<<"\n3)Safe:"<<c<<"\nPlease help the people who are suffering!!!";
+    return 0;
+}
+//You reside in a desert place, One day a new group of peoples came to visit the desert place, infront of your eyes. Two peoples comes out of the group. 
+They were so friendly and you just want to Welcome them to the place. Write a program to welcome those two peoples to the desert.
+SAMPLE OUTPUT:
+Hello People! Welcome to our desert.
+Program:
+#include<iostream>
+using namespace std;
+int main()
+{ 
+    cout<<"Hello People! Welcome to our desert.";
+    return 0;
+}
+//MECON LIMITED was a public sector undertaking firm under the ministry of steel where Dhoni's father had worked for. It was the stadium where MS Dhoni grew up playing.
+The Chairman of MECON decided to renovate and improvise the facilities in the stadium and to place a NEON display board at the entry of the stadium that carried the Stadium's name as "MECON Stadium".
+Write a program to display the Stadium name in different lines.
+Input Format:
+There is no input
+Output Format:
+Print the name "MECON Stadium" in different lines.
+SAMPLE OUTPUT:
+MECON
+Stadium
+Program:
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"MECON\nStadium";
+    return 0;
+    
+}
+//You are collecting the age of each cricketers in the team. At a time, you can get only one cricketer age. So, create a program, which will get that one cricketer's age and print the age to verify.
+Input Format:
+Input value consists of an Integer.
+Output Format:
+Output value consists of an Integer.
+Sample Input:
+29
+Sample Output:
+The cricketer age is 29
+Program:
+#include<iostream>
+using namespace std;
+int main()
+{ 
+    int a;
+    cin>>a;
+    cout<<"The cricketer age is "<<a;
+    return 0;
+}
+//You are working as the bowling assist during the practice session before match. All the bowlers are asking the speed of the ball. So, you need to get the ball speed and print the ball speed with only 2 decimal value.
+Input Format:
+Input value consists of double value
+Output Format:
+Output value consists of double value with 2 decimal value.
+Sample Input:
+141.236
+Sample Output:
+141.24
+Program:
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    float a;
+    cin>>a;
+    cout<<fixed<<setprecision(2)<<a;
+    return 0;
+}
+//You reside in a desert place, One day a space shuttle lands infront of your eyes. Two Aliens comes out of the space shuttle. 
+They were so friendly and you just want to Welcome them to our planet. Write a program to welcome those two aliens to our planet EARTH.
+SAMPLE OUTPUT:
+Hello Aliens ! Welcome to our planet Earth.
+Program:
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"Hello Aliens ! Welcome to our planet Earth.";
+    return 0;
+}
+//MS Dhoni is one of the cricket's most charismatic personalities today. He has been a true inspirational figure and has provided for some great cricketing moments. He has a huge fan base across borders irrespective of age, nationality, nor languages spoken. India, being the a diverse country of ethnic culture, so does the Indian Captian who now has nick name in diversified ways like M.S, MSD, Mahi, Thala, Ranchi Rocker, Captian Cool, etc.,. Write a program to  print the various nick names of Dhoni separated by comma.
+Input Format:
+There is no input.
+Output Format:
+Print the nick names of Dhoni separated by comma.
+Refer the sample input and output for formatting specifications.
+Sample Output:
+M.S, MSD, Mahi, Thala, Ranchi Rocker, Captain Cool
+Program:
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"M.S, MSD, Mahi, Thala, Ranchi Rocker, Captain Cool";
+    return 0;
+}
+//Dhoni's family is from the community of the Rajputs and a simple middle-class family. Dhoni's father Pan Singh Dhoni worked for MECON, a public-sector engineering firm and his mother Devki Devi, a housewife. He has an elder brother Narendra Singh Dhoni who is a politician and a sister Jayanti Gupta who is a teacher.
+Write a program to display Dhoni's family details, in the following format:
+M. S. Dhoni
+Father: Mr. Pan Singh
+Mother: Mrs. Devki Devi
+Sibings: Narendra Singh and Jayanti Gupta
+Input Format:
+There is no Input
+Output Format:
+Print the dhoni family details as given above.
+Refer sample input and output for formatting specifications.
+Sample Output:
+M. S. Dhoni
+Father: Mr. Pan Singh
+Mother: Mrs. Devki Devi
+Sibings: Narendra Singh and Jayanti Gupta
+Program:
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"M. S. Dhoni\nFather: Mr. Pan Singh\nMother: Mrs. Devki Devi\nSibings: Narendra Singh and Jayanti Gupta";
+    return 0;
+}
+//MS Dhoni is the highest-paid batsman on the endorsement circuit and he was ranked 23rd by Forbes amoung the world's highest-paid athletes last year - the only cricketer on the list - with $27 million in earning from endorsements.
+Currently Dhoni has 20 endorsements only one less than Shahrukh Khan. It includes Pepsica, AIRCEL Communications, Titan, TVS Motors, Boost, Reebok, Videocon, GE Money, NDTV, etc.,.
+Write a program to print th list of any 10 endorsements that Dhoni owns.
+Refer the Sample Output.
+Sample Output:
+Pepsico
+AIRCEL
+Communications
+Titan
+TVS
+Motors
+Boost
+Reebok
+Videocon
+GE Money
+Program:
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"Pepsico\nAIRCEL\nCommunications\nTitan\nTVS\nMotors\nBoost\nReebok\nVideocon\nGE Money";
+    return 0;
+}
+
+
 
 
 
