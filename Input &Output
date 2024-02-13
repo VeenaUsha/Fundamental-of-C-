@@ -333,7 +333,133 @@ int main()
     cout<<"Pepsico\nAIRCEL\nCommunications\nTitan\nTVS\nMotors\nBoost\nReebok\nVideocon\nGE Money";
     return 0;
 }
-
+//It was in the 1997-98 season that Ranchi saw the rise of the Captain Cool in the interschool trophy between DAV Jawahar Vidhya Mandir and Kendriya School. It was in that match Dhoni convinced Banerjee to be the opener and justified it with a double century.
+Write a program to display the details of the match with Team name, Scores of the team and Overs played.
+Input and Output Format:
+Refer sample input and output for formatting specifications.
+[All text in bold corresponds to input and the rest corresponds to output]
+Sample Input and Output:
+Team 1:
+Team Name:
+DAV Jawahar Vidhya Mandir
+Score:
+150
+Overs played:
+20
+Team 2:
+Team name:
+Kendriya School
+Score:
+110
+Overs played:
+18
+Match Details:
+Team 1:
+Name: DAV Jawahar Vidhya Mandir
+Score: 150
+Overs played: 20
+Team 2:
+Name:  Kendriya School
+Score: 110
+Overs played: 18
+Program:
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+   int a,b,c,d;
+   string e,f;
+    cout<<"Team 1:";
+    cout<<"\nTeam Name:";
+    getline(cin,e);
+    cout<<"\nScore:";
+    cin>>a;
+    cout<<"\nOvers played:";
+    cin>>b;
+    cin.ignore();
+    cout<<"\nTeam 2:";
+    cout<<"\nTeam Name:";
+    getline(cin,f);
+    cout<<"\nScore:";
+    cin>>c;
+    cout<<"\nOvers played:";
+    cin>>d;
+    cout<<"\nMatch Details:\nTeam 1:\nName: "<<e<<"\nScore: "<<a<<"\nOvers played: "<<b;
+    cout<<"\nTeam 2:\nName: "<<f<<"\nScore: "<<c<<"\nOvers played: "<<d;
+     return 0;
+}
+//Keshab Ranjan Banerjee, a senior sports teacher at Dhoni's Jawahar Vidhya Mandhir School, spotted Dhoni when he was goal keeping for a football match.
+He got impressed by Dhoni's saves and thought of trying him out behind the stumps for the school's cricket team. In his first meet with Dhoni, Banerjee asked him his name and the game that Dhoni loves to play. Write a program to display Dhoni's reply.
+Input and Output Format:
+Refer the sample input and output for formatting specifications.
+All the text in bold corresponds to input and rest corresponds to output.
+Sample Input and Output:
+Name:
+Dhoni
+Game:
+Football
+My name is Dhoni and I love to play Football
+Program:
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    string a,b;
+    cout<<"Name:\n";
+    getline(cin,a);
+    cout<<"Game:\n";
+    getline(cin,b);
+    cout<<"My name is "<<a;
+    cout<<" and I love to play "<<b;
+    cout<<"\n";
+    return 0;
+}
+//There are more than 20 cricket stadium allotted for the India's Biggest Cricket Tournament (IPL). All the stadiums are having different name. You will remember only one stadium name during the match only. So, you need to get the stadium name from the tournament management and print the stadium name for the players too.
+Input Format:
+Input value consists of a String.
+Output Format:
+Output value consists of a String.
+Sample Input:
+Wankhede Stadium
+Sample Output:
+Today's match will be held at Wankhede Stadium
+Program:
+#include<iostream>
+using namespace std;
+int main()
+{
+    string a;
+    getline(cin,a);
+    cout<<"Today's match will be held at "<<a;
+    return 0;
+}
+//Dhoni's Confident Reply!!!
+After Dhoni made it to the pinnacle of Success as Indian Captain, Mr. Banerjee was once invited by the Media to recall his association with Dhoni. Mr. Banerjee quoted one important moment that complemented the traits of Dhoni. It was when he approached Dhoni and asked him if he would play cricket for the school team saying "Will you be a wicketkeeper?" and was taken aback by Dhoni's confident reply "I will if I get a chance". Write a program to display the answers of Dhoni that impressed his master.
+Input and Output Format:
+Refer Sample input and output for formatting specifications.
+All text in bold corresponds to input and the rest corresponds to output.
+Sample Input and Output:
+Banerjee's Question:
+Will you be a wicketkeeper?
+Dhoni's Reply:
+I will if i get a chance.
+For Banerjee's question "Will you be a wicketkeeper?" Dhoni's confident reply was "I will if I get a chance."
+Program:
+#include<iostream>
+using namespace std;
+int main()
+{
+    string a,b;
+    cout<<"Banerjee's Question:\n";
+    getline(cin,a);
+    cout<<"Dhoni's Reply:\n";
+    getline(cin,b);
+    cout<<"For Banerjee's question \""<<a<<"\" Dhoni's confident reply was \""<<b;
+    
+    return 0;
+}
 
 
 
